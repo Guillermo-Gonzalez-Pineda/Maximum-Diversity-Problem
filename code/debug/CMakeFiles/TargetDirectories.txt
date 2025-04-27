@@ -1,0 +1,3 @@
+/home/guillermo/DAA/DAA_PR6_RYP/code/debug/CMakeFiles/rebuild_cache.dir
+/home/guillermo/DAA/DAA_PR6_RYP/code/debug/CMakeFiles/edit_cache.dir
+/home/guillermo/DAA/DAA_PR6_RYP/code/debug/CMakeFiles/MaximumDiversity.dir
