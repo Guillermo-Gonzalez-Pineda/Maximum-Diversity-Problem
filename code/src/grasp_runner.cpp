@@ -23,8 +23,8 @@ Solution GraspRunner::run(const ProblemInstance& instance, int m, int lrc_size,
     currentSolution.setM(m);
     currentSolution.setLRCSize(lrc_size);
     currentSolution.setIteration(
-        iterations);  // Guardamos la cantidad de iteraciones (10 o 20, no el
-                      // número individual)
+        iterations);
+                      
 
     if (currentSolution.getValue() > bestValue) {
       bestValue = currentSolution.getValue();

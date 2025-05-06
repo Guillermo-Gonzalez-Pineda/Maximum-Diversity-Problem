@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/MaximumDiversity.dir/build.make CMakeFiles/MaximumDiversity.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/bnb_node.o: src/bnb_node.cpp.o
+
+.PHONY : src/bnb_node.o
+
+# target to build an object file
+src/bnb_node.cpp.o:
+	$(MAKE) -f CMakeFiles/MaximumDiversity.dir/build.make CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.o
+.PHONY : src/bnb_node.cpp.o
+
+src/bnb_node.i: src/bnb_node.cpp.i
+
+.PHONY : src/bnb_node.i
+
+# target to preprocess a source file
+src/bnb_node.cpp.i:
+	$(MAKE) -f CMakeFiles/MaximumDiversity.dir/build.make CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.i
+.PHONY : src/bnb_node.cpp.i
+
+src/bnb_node.s: src/bnb_node.cpp.s
+
+.PHONY : src/bnb_node.s
+
+# target to generate assembly for a file
+src/bnb_node.cpp.s:
+	$(MAKE) -f CMakeFiles/MaximumDiversity.dir/build.make CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.s
+.PHONY : src/bnb_node.cpp.s
+
+src/branch_and_bound_solver.o: src/branch_and_bound_solver.cpp.o
+
+.PHONY : src/branch_and_bound_solver.o
+
+# target to build an object file
+src/branch_and_bound_solver.cpp.o:
+	$(MAKE) -f CMakeFiles/MaximumDiversity.dir/build.make CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.o
+.PHONY : src/branch_and_bound_solver.cpp.o
+
+src/branch_and_bound_solver.i: src/branch_and_bound_solver.cpp.i
+
+.PHONY : src/branch_and_bound_solver.i
+
+# target to preprocess a source file
+src/branch_and_bound_solver.cpp.i:
+	$(MAKE) -f CMakeFiles/MaximumDiversity.dir/build.make CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.i
+.PHONY : src/branch_and_bound_solver.cpp.i
+
+src/branch_and_bound_solver.s: src/branch_and_bound_solver.cpp.s
+
+.PHONY : src/branch_and_bound_solver.s
+
+# target to generate assembly for a file
+src/branch_and_bound_solver.cpp.s:
+	$(MAKE) -f CMakeFiles/MaximumDiversity.dir/build.make CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.s
+.PHONY : src/branch_and_bound_solver.cpp.s
+
 src/grasp_algorithm.o: src/grasp_algorithm.cpp.o
 
 .PHONY : src/grasp_algorithm.o
@@ -405,6 +459,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/bnb_node.o"
+	@echo "... src/bnb_node.i"
+	@echo "... src/bnb_node.s"
+	@echo "... src/branch_and_bound_solver.o"
+	@echo "... src/branch_and_bound_solver.i"
+	@echo "... src/branch_and_bound_solver.s"
 	@echo "... src/grasp_algorithm.o"
 	@echo "... src/grasp_algorithm.i"
 	@echo "... src/grasp_algorithm.s"

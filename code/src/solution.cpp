@@ -1,6 +1,16 @@
 #include "../include/solution.h"
 #include <sstream>
 
+Solution::Solution() {
+  // Constructor por defecto
+  value_ = 0.0;
+  selected_.clear();
+  cpu_time_ = 0.0;
+  m_ = 0;
+  lrc_size_ = 0;
+  iteration_ = 0;
+}
+
 Solution::Solution(const std::vector<int>& selected, const ProblemInstance& instance, 
                   double cpu_time, int m, int lrc_size, int iteration)
     : selected_(selected), value_(evaluate(instance)), cpu_time_(cpu_time), 

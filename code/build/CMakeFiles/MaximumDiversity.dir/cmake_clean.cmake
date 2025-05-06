@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MaximumDiversity.dir/main.cpp.o"
+  "CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.o"
+  "CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.o"
   "CMakeFiles/MaximumDiversity.dir/src/grasp_algorithm.cpp.o"
   "CMakeFiles/MaximumDiversity.dir/src/grasp_runner.cpp.o"
   "CMakeFiles/MaximumDiversity.dir/src/greedy_algorithm.cpp.o"

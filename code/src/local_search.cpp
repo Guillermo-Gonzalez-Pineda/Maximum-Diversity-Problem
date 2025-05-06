@@ -22,12 +22,10 @@ Solution LocalSearch::improveSolution(const Solution& initialSolution,
     bool found = false;
 
     for (int inIdx = 0; inIdx < n && !found; ++inIdx) {
-      if (!isSelected[inIdx]) {  // Solo consideramos elementos que NO están en
-                                 // la solución
+      if (!isSelected[inIdx]) {                         
         for (int outIdx = 0; outIdx < selected.size() && !found; ++outIdx) {
           int currentSelected = selected[outIdx];
 
-          // Intentar hacer el swap
           selected[outIdx] = inIdx;
 
           Solution candidateSolution(selected, instance);
@@ -42,7 +40,7 @@ Solution LocalSearch::improveSolution(const Solution& initialSolution,
             isSelected[currentSelected] = false;
             isSelected[inIdx] = true;
           } else {
-            selected[outIdx] = currentSelected;  // Revertimos el cambio
+            selected[outIdx] = currentSelected;
           }
         }
       }

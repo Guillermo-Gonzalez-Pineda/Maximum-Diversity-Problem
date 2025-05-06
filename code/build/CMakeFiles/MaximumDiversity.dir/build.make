@@ -187,6 +187,32 @@ CMakeFiles/MaximumDiversity.dir/src/local_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MaximumDiversity.dir/src/local_search.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guillermo/DAA/DAA_PR6_RYP/code/src/local_search.cpp -o CMakeFiles/MaximumDiversity.dir/src/local_search.cpp.s
 
+CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.o: CMakeFiles/MaximumDiversity.dir/flags.make
+CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.o: ../src/branch_and_bound_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.o -c /home/guillermo/DAA/DAA_PR6_RYP/code/src/branch_and_bound_solver.cpp
+
+CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guillermo/DAA/DAA_PR6_RYP/code/src/branch_and_bound_solver.cpp > CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.i
+
+CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guillermo/DAA/DAA_PR6_RYP/code/src/branch_and_bound_solver.cpp -o CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.s
+
+CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.o: CMakeFiles/MaximumDiversity.dir/flags.make
+CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.o: ../src/bnb_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.o -c /home/guillermo/DAA/DAA_PR6_RYP/code/src/bnb_node.cpp
+
+CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guillermo/DAA/DAA_PR6_RYP/code/src/bnb_node.cpp > CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.i
+
+CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guillermo/DAA/DAA_PR6_RYP/code/src/bnb_node.cpp -o CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.s
+
 # Object files for target MaximumDiversity
 MaximumDiversity_OBJECTS = \
 "CMakeFiles/MaximumDiversity.dir/main.cpp.o" \
@@ -198,7 +224,9 @@ MaximumDiversity_OBJECTS = \
 "CMakeFiles/MaximumDiversity.dir/src/table_generator.cpp.o" \
 "CMakeFiles/MaximumDiversity.dir/src/grasp_algorithm.cpp.o" \
 "CMakeFiles/MaximumDiversity.dir/src/grasp_runner.cpp.o" \
-"CMakeFiles/MaximumDiversity.dir/src/local_search.cpp.o"
+"CMakeFiles/MaximumDiversity.dir/src/local_search.cpp.o" \
+"CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.o" \
+"CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.o"
 
 # External object files for target MaximumDiversity
 MaximumDiversity_EXTERNAL_OBJECTS =
@@ -213,9 +241,11 @@ MaximumDiversity: CMakeFiles/MaximumDiversity.dir/src/table_generator.cpp.o
 MaximumDiversity: CMakeFiles/MaximumDiversity.dir/src/grasp_algorithm.cpp.o
 MaximumDiversity: CMakeFiles/MaximumDiversity.dir/src/grasp_runner.cpp.o
 MaximumDiversity: CMakeFiles/MaximumDiversity.dir/src/local_search.cpp.o
+MaximumDiversity: CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.o
+MaximumDiversity: CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.o
 MaximumDiversity: CMakeFiles/MaximumDiversity.dir/build.make
 MaximumDiversity: CMakeFiles/MaximumDiversity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable MaximumDiversity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable MaximumDiversity"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MaximumDiversity.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

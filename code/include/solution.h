@@ -8,6 +8,8 @@
 class Solution {
   public:
     // Constructor
+    Solution();
+
     Solution(const std::vector<int>& selected, const ProblemInstance& instance, 
              double cpu_time = 0.0, int m = 0, int lrc_size = 0, int iteration = 0);
 

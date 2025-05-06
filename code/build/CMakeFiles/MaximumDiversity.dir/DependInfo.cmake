@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/guillermo/DAA/DAA_PR6_RYP/code/main.cpp" "/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles/MaximumDiversity.dir/main.cpp.o"
+  "/home/guillermo/DAA/DAA_PR6_RYP/code/src/bnb_node.cpp" "/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles/MaximumDiversity.dir/src/bnb_node.cpp.o"
+  "/home/guillermo/DAA/DAA_PR6_RYP/code/src/branch_and_bound_solver.cpp" "/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles/MaximumDiversity.dir/src/branch_and_bound_solver.cpp.o"
   "/home/guillermo/DAA/DAA_PR6_RYP/code/src/grasp_algorithm.cpp" "/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles/MaximumDiversity.dir/src/grasp_algorithm.cpp.o"
   "/home/guillermo/DAA/DAA_PR6_RYP/code/src/grasp_runner.cpp" "/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles/MaximumDiversity.dir/src/grasp_runner.cpp.o"
   "/home/guillermo/DAA/DAA_PR6_RYP/code/src/greedy_algorithm.cpp" "/home/guillermo/DAA/DAA_PR6_RYP/code/build/CMakeFiles/MaximumDiversity.dir/src/greedy_algorithm.cpp.o"

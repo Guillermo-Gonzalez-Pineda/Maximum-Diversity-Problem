@@ -66,6 +66,8 @@ add_executable(MaximumDiversity
     src/grasp_algorithm.cpp
     src/grasp_runner.cpp
     src/local_search.cpp
+    src/branch_and_bound_solver.cpp
+    src/bnb_node.cpp
     )
 
 # Add expected compiler features to a target.

@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+../include/bnb_node.h
+problem_instance.h
+../include/problem_instance.h
+
+../include/branch_and_bound_solver.h
+bnb_node.h
+../include/bnb_node.h
+solution.h
+../include/solution.h
+problem_instance.h
+../include/problem_instance.h
+queue
+-
+
 ../include/grasp_algorithm.h
 solution.h
 ../include/solution.h
@@ -58,11 +72,31 @@ string
 solution.h
 ../include/solution.h
 
-/home/guillermo/DAA/DAA_PR6_RYP/code/include/local_search.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/bnb_node.h
 problem_instance.h
 /home/guillermo/DAA/DAA_PR6_RYP/code/include/problem_instance.h
+
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/branch_and_bound_solver.h
+bnb_node.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/bnb_node.h
 solution.h
 /home/guillermo/DAA/DAA_PR6_RYP/code/include/solution.h
+problem_instance.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/problem_instance.h
+queue
+-
+
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/grasp_algorithm.h
+solution.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/solution.h
+problem_instance.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/problem_instance.h
+
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/greedy_algorithm.h
+solution.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/solution.h
+problem_instance.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/problem_instance.h
 
 /home/guillermo/DAA/DAA_PR6_RYP/code/include/problem_instance.h
 vector
@@ -99,12 +133,20 @@ vector
 /home/guillermo/DAA/DAA_PR6_RYP/include/solution.h
 ../include/table_generator.h
 /home/guillermo/DAA/DAA_PR6_RYP/include/table_generator.h
+../include/branch_and_bound_solver.h
+/home/guillermo/DAA/DAA_PR6_RYP/include/branch_and_bound_solver.h
 
-/home/guillermo/DAA/DAA_PR6_RYP/code/src/local_search.cpp
-../include/local_search.h
-/home/guillermo/DAA/DAA_PR6_RYP/code/include/local_search.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/src/branch_and_bound_solver.cpp
+../include/branch_and_bound_solver.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/branch_and_bound_solver.h
+limits
+-
 algorithm
 -
-vector
+numeric
 -
+../include/greedy_algorithm.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/greedy_algorithm.h
+../include/grasp_algorithm.h
+/home/guillermo/DAA/DAA_PR6_RYP/code/include/grasp_algorithm.h
 
